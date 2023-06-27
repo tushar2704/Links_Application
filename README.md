@@ -12,5 +12,5 @@
 - <b>[LinkedIn](https://www.linkedin.com/in/tusharaggarwalinseec/)</b>
 - <b>[Medium](https://medium.com/@tushar_aggarwal)</b> 
 - <b>[Tushar-Aggarwal.com](https://www.tushar-aggarwal.com/)</b>
-- <b>[Kaggle](https://www.kaggle.com/tusharaggarwal27)</b> 
+- <b>[New Kaggle](https://www.kaggle.com/tagg27)</b> 
 
