@@ -17,9 +17,9 @@ st.info('Data Scientist')
 icon_size = 20
 
 st_button('website', 'https://www.tushar-aggarwal.com/', 'Tushar-Aggarwal.com', icon_size)
-st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
 st_button('medium', 'https://medium.com/@tushar_aggarwal', 'Read my Blogs', icon_size)
 st_button('twitter', 'https://twitter.com/TaggData', 'Follow me on Twitter', icon_size)
 st_button('linkedin', 'https://www.linkedin.com/in/tusharaggarwalinseec/', 'Follow me on LinkedIn', icon_size)
 st_button('newsletter', 'https://substack.com/@tusharaggarwal', 'Sign up for my Newsletter', icon_size)
+st_button('youtube', 'https://www.youtube.com/channel/UCGCsCecaRR4ZSITB3Mqzqqg', 'YouTube channel', icon_size)
 st_button('cup', 'https://ko-fi.com/tusharaggarwal', 'Buy me a Coffee', icon_size)
