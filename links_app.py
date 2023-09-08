@@ -3,6 +3,35 @@ import streamlit as st
 from st_functions import st_button, load_css
 from PIL import Image
 
+
+custom_css = """
+<style>
+# .stApp > header {
+#     background-color: transparent;
+# }
+
+.stApp {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+    background: linear-gradient(#FDF8E1 38%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+
+</style>
+"""
+
+def main():
+    # Inject the custom CSS
+    st.markdown(custom_css, unsafe_allow_html=True)
+    
+
+if __name__ == "__main__":
+    main()
+
 load_css()
 
 st.write("[![Star](https://img.shields.io/github/stars/tushar2704/Links_Application.svg?logo=github&style=social)](https://gitHub.com/tushar2704/Links_Application)")
@@ -10,7 +39,7 @@ st.write("[![Star](https://img.shields.io/github/stars/tushar2704/Links_Applicat
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('dp.jpg'))
 
-st.header('Tushar Aggarwal, MSc')
+st.header('Tushar Aggarwal, M.S.')
 
 st.info('Data Scientist | Data Analyst | Business Analyst | Python, SQL | Medium Writer | MSc INSEEC, PARIS | RNCP Manager Level 7')
 
