@@ -12,7 +12,7 @@ col2.image(Image.open('dp.jpg'))
 
 st.header('Tushar Aggarwal, MSc')
 
-st.info('Data Scientist')
+st.info('Data Scientist | Data Analyst | Business Analyst | Python, SQL | Medium Writer | MSc INSEEC, PARIS | RNCP Manager Level 7')
 
 icon_size = 20
 
